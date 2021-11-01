@@ -42,7 +42,7 @@ class ChaiBeer {
                 nhacNen.pause();
                 soundEndGame = new Audio('sound/laugh.wav')
                 soundEndGame.play()
-                alert('game over');
+                alert('Thua mất rồi!!! Muốn chơi nữa hông?');
                 getName();
                 getPoint();
                 score = 0;
